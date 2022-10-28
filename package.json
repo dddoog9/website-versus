@@ -1,0 +1,17 @@
+{
+  "name": "website-versus",
+  "version": "1.0.0",
+  "description": "Web studio page",
+  "private": true,
+  "scripts": {
+    "clean": "rimraf css/*",
+    "watch": "npm run clean && sass --watch scss:css",
+    "dev": "npm run clean && sass scss:css",
+    "build": "npm run clean && sass --style compressed scss:css"
+  },
+  "author": "https://github.com/dddoog9",
+  "devDependencies": {
+    "rimraf": "^3.0.2",
+    "sass": "^1.55.0"
+  }
+}
