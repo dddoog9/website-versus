@@ -10,3 +10,7 @@ Web studio page
 ## VS Code Plugins
 
 - Live Server
+
+## License
+
+[MIT](LICENSE.md)
